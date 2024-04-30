@@ -1,0 +1,74 @@
+{
+    "documents": [
+      {
+        "id": "id__650",
+        "sentiment": "positive",
+        "confidenceScores": {
+          "positive": 0.95,
+          "neutral": 0.03,
+          "negative": 0.02
+        },
+        "sentences": [
+          {
+            "sentiment": "positive",
+            "confidenceScores": {
+              "positive": 0.95,
+              "neutral": 0.03,
+              "negative": 0.02
+            },
+            "offset": 0,
+            "length": 219,
+            "text": "The boys are back The boys are back The boys are back And they're looking for trouble The boys are back The boys are back The boys are back And they're looking for trouble The boys are back The boys are back The boys are back And they're looking for trouble The boys are back The boys are back The boys are back And they're looking for trouble",
+            "targets": [
+              {
+                "sentiment": "positive",
+                "confidenceScores": {
+                  "positive": 0.95,
+                  "negative": 0.01
+                },
+                "offset": 0,
+                "length": 14,
+                "text": "The boys are back",
+                "relations": [
+                  {
+                    "relationType": "assessment",
+                    "ref": "#/documents/0/sentences/0/assessments/0"
+                  }
+                ]
+              }
+            ],
+            "assessments": [
+              {
+                "sentiment": "positive",
+                "confidenceScores": {
+                  "positive": 0.95,
+                  "negative": 0.01
+                },
+                "offset": 60,
+                "length": 22,
+                "text": "looking for trouble",
+                "isNegated": false
+              }
+            ]
+          },
+          {
+            "sentiment": "positive",
+            "confidenceScores": {
+              "positive": 0.98,
+              "neutral": 0.02,
+              "negative": 0
+            },
+            "offset": 219,
+            "length": 158,
+            "text": "Standing on the highway, I'm missing my home, and it's killing me Down the ramp passed the jail, I'm feeling alright Bought roses for my ladies from a corner delight It's time to get ready for that song and dance Let's go my friends, it's time to take a chance We're back in town, we're gonna get it done We got nowhere to hide, we got nowhere to run It's been a long time coming, It's been a long time coming,",
+            "targets": [],
+            "assessments": []
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+  }
+  
