@@ -1,65 +1,39 @@
-AI-900/Analyze sentiment and opinions
-/Readme.md
-Latest commit
-CassioD
-CassioD
-Update Readme.md
-7fb0c36
- · 
-2 months ago
-History
-BreadcrumbsAI-900/Analyze sentiment and opinions
-/Readme.md
-File metadata and controls
+# Análise de Sentimentos da Música "The Boys Are Back" - Dropkick Murphys
 
-Preview
+Este tutorial apresenta um guia passo a passo sobre como realizar a análise de sentimentos da música "The Boys Are Back" da banda Dropkick Murphys utilizando a plataforma de análise de linguagem natural.
 
-Code
+## Pré-requisitos
 
-Blame
-83 lines (51 loc) · 3.11 KB
-Análise de Sentimentos da Música "Que País É Este" - Legião Urbana
-Este repositório contém um tutorial passo a passo sobre como realizar a análise de sentimentos da música "Que País É Este" do grupo Legião Urbana utilizando a plataforma de machine learning da Azure.
+- Conta ativa na plataforma de análise de linguagem natural, como a Azure Language Studio.
+- Conhecimentos básicos sobre análise de sentimentos e processamento de linguagem natural.
+- A letra da música "The Boys Are Back" dos Dropkick Murphys em formato de texto plano.
 
-Pré-requisitos
-Conta ativa na plataforma Azure
-Conhecimentos básicos sobre machine learning e análise de sentimentos
-Conjunto de dados da música "Que País É Este" em formato de texto ou letra da música em texto plano
-Passos
-Preparação do Ambiente:
-Acesse o portal da Azure e navegue até o Azure Language Studio.
-Preparação do Ambiente
+## Passos
 
-Configuração do Projeto:
-Crie um novo projeto ou utilize um existente para realizar a análise de sentimentos da música.
-Configuração do Projeto
+1. **Preparação do Ambiente:**
+   - Acesse a plataforma de análise de linguagem natural de sua escolha, como o Azure Language Studio.
 
-Escolha dos Dados:
-Realize a pesquisa da letra da música "Que país é esse"
-Escolha dos Dados
+2. **Configuração do Projeto:**
+   - Crie um novo projeto ou utilize um existente para realizar a análise de sentimentos da música.
 
-Análise de Sentimentos da Música:
-Utilize o modelo treinado "Analyze sentiment and opinions".
-Análise de Sentimentos da Música
+3. **Escolha dos Dados:**
+   - Obtenha a letra da música "The Boys Are Back" dos Dropkick Murphys.
 
-Escolha do idioma do texto:
-No nosso caso, Português - Brasil.
-Escolha do idioma do texto
+4. **Análise de Sentimentos da Música:**
+   - Utilize o modelo de análise de sentimentos disponível na plataforma escolhida.
 
-Colagem da letra da música:
-A letra escolhida está no site: Letras
-Colagem da letra da música
+5. **Escolha do Idioma do Texto:**
+   - Certifique-se de selecionar o idioma correto do texto, neste caso, inglês.
 
-Pré-processamento dos Dados:
-Realize o pré-processamento dos dados, como remoção de stopwords, tokenização, etc.
-Pré-processamento dos Dados
+6. **Colagem da Letra da Música:**
+   - Cole a letra da música "The Boys Are Back" na interface de análise de sentimentos.
 
-Visualização dos Resultados:
-Visualize os resultados da análise de sentimentos em formato gráfico ou de texto.
-Visualização dos Resultados
+7. **Pré-processamento dos Dados:**
+   - Realize o pré-processamento dos dados, se necessário, como remoção de palavras irrelevantes ou tokenização.
 
-Resultados Esperados
-Espera-se que ao final deste tutorial você seja capaz de realizar uma análise de sentimentos da música "Que País É Este" utilizando a plataforma de machine learning da Azure, identificando os principais sentimentos expressos na letra da música.
+8. **Visualização dos Resultados:**
+   - Analise os resultados da análise de sentimentos, que podem ser apresentados graficamente ou em formato de texto.
 
-Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para propor melhorias neste tutorial ou adicionar informações adicionais.
+## Resultados Esperados
+
+Espera-se que ao final deste tutorial você seja capaz de realizar uma análise de sentimentos da música "The Boys Are Back" dos Dropkick Murphys utilizando uma plataforma de análise de linguagem natural, identificando os principais sentimentos expressos na letra da música.
